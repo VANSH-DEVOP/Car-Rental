@@ -146,3 +146,94 @@ svg{
 a{
   color: slateblue !important;
 }
+
+/* —— Home landing —— */
+.home-hero {
+  background: linear-gradient(135deg, #1a1a2e 0%, #16213e 45%, #0f3460 100%);
+  color: #fff;
+  padding: 3rem 1.5rem 2.75rem;
+  margin-bottom: 0.5rem;
+}
+
+.home-hero-inner {
+  max-width: 1100px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.home-hero-badge {
+  display: inline-block;
+  padding: 0.35rem 1rem;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.12);
+  font-size: 0.85rem;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+}
+
+.home-hero-title.ant-typography {
+  color: #fff !important;
+  margin-bottom: 0.75rem !important;
+  font-weight: 700 !important;
+}
+
+.home-hero-sub.ant-typography {
+  color: rgba(255, 255, 255, 0.85) !important;
+  font-size: 1.05rem !important;
+  max-width: 560px;
+  margin: 0 auto 2rem !important;
+}
+
+.home-features {
+  margin-top: 0.5rem !important;
+}
+
+.home-feature-card {
+  background: rgba(255, 255, 255, 0.08);
+  border-radius: 12px;
+  padding: 1.25rem;
+  height: 100%;
+  text-align: center;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+}
+
+.home-feature-card p {
+  color: rgba(255, 255, 255, 0.75) !important;
+  margin-top: 0.5rem !important;
+  font-size: 0.9rem;
+}
+
+.home-feature-card strong {
+  display: block;
+  margin-top: 0.5rem;
+  color: #fff;
+}
+
+.home-feature-icon {
+  font-size: 2rem !important;
+  color: #7eb8da !important;
+}
+
+.home-filter-bar {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 1rem;
+  background: #fff;
+  padding: 1rem 1.25rem;
+  border-radius: 10px;
+  box-shadow: rgba(14, 30, 37, 0.08) 0px 2px 8px 0px;
+}
+
+.home-filter-label {
+  font-weight: 600;
+  color: #333;
+}
+
+.home-empty-wrap {
+  padding: 2rem 1rem 3rem;
+  text-align: center;
+  max-width: 520px;
+  margin: 0 auto;
+}
